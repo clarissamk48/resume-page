@@ -1,0 +1,132 @@
+/* Fonts */
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
+
+body {
+	margin: 0; 
+    padding: 2%;
+	background-color: #FFFF;
+}
+
+ h2, h4, h5{
+	margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.basic-information h4 {
+    font-family: 'Bitter', serif;
+    font-size: 15px;
+    color: coral; 
+}
+
+.container {
+	display: flex;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.aside {
+    width: 100%;
+    flex: 1;
+    flex-basis: 25%;
+	background-color: #5D6D7E;
+	padding: 2rem;
+	text-align: center;
+	color: white;
+}
+
+.aside h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+.main {
+    flex: 3;
+    flex-basis: 75%;
+	background-size: cover;
+    width: 100%;
+}
+
+.main-info {
+	padding: 2rem;
+	color: white;
+    background-color: #C06C84;
+}
+
+.main-info p {
+	font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+.main-info h2 {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px; 
+}
+
+ul {
+    font-family: 'Lato', sans-serif;
+}
+
+.secondary-info {
+    height: 400px;
+	padding: 2rem;
+	color: white;
+    background-color: #F67280;
+}
+
+.aside img {
+	border-radius: 50%;
+	width: 100%;
+	max-width: 250px;
+	min-width: 200px;
+	text-align: center;
+    margin-top: 10px;
+	border: 2px solid white; 
+}
+
+
+.basic-information p {
+	margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.basic-information a {
+	color: white;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+.social-media h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: aquamarine;
+}
+
+.social-media p {
+    padding-top: 20px;
+    font-family: 'Bitter', cursive;
+}
+
+.social-media a {
+    color: white;
+}
+
+.social-media a:hover {
+    color: aquamarine;
+}
+
+
+/* Media Queries */
+
+
+@media all and (max-width:700px) {
+.container {
+    flex-direction: column;
+  }
+}
